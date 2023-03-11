@@ -1,5 +1,6 @@
 import React from 'react'
-import './globals.css'
+
+import '../styles/global.css'
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-slate-900 flex items-center justify-center h-screen">
+        {children}
+      </body>
     </html>
   )
 }
