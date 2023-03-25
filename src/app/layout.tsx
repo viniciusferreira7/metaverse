@@ -1,10 +1,14 @@
+import { Metadata } from 'next'
 import React from 'react'
 
 import '../styles/global.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Metaverse',
   description: 'Created by Vinicius Ferreira',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
