@@ -16,19 +16,19 @@ export default function Home() {
       <Navbar />
       <Hero />
       <div className="relative">
-      <About />
+        <About />
         <div className="gradient-03 z-0" />
-      <Explore />
+        <Explore />
       </div>
       <div className="relative">
-      <GetStarted />
+        <GetStarted />
         <div className="gradient-04 z-0" />
-      <WhatsNew />
+        <WhatsNew />
       </div>
       <div className="relative">
-      <World />
+        <World />
         <div className="gradient-04 z-0" />
-      <Insights />
+        <Insights />
       </div>
       <Feedback />
       <Footer />
