@@ -24,7 +24,7 @@ export const exploreWorlds = [
     imgUrl: '/planet-05.png',
     title: 'Hawkins Labs',
   },
-]
+] as const
 
 export const startingFeatures = [
   'Find a world that suits you and you want to enter',
