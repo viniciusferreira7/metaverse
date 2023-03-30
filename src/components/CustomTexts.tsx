@@ -23,6 +23,21 @@ export function TypingText({ title, textStyles }: TypingTextProps) {
   )
 }
 
-export function TitleText() {
-  return <h2>Title Text</h2>
+interface TitleTextProps {
+  title: ReactElement
+  textStyles: string
+}
+
+export function TitleText({ title, textStyles }: TitleTextProps) {
+  return (
+    <motion.h2
+      variants={textVariant2}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${textStyles} mt-[8px] font-bold md:text-[64px] text-[40px] text-white`}
+    >
+      {title}
+    </motion.h2>
+  )
 }
