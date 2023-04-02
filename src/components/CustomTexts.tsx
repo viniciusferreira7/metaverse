@@ -6,7 +6,7 @@ import { ReactElement } from 'react'
 
 interface TypingTextProps {
   title: string
-  textStyles: string
+  textStyles?: string
 }
 
 export function TypingText({ title, textStyles }: TypingTextProps) {
@@ -26,7 +26,7 @@ export function TypingText({ title, textStyles }: TypingTextProps) {
 
 interface TitleTextProps {
   title: ReactElement
-  textStyles: string
+  textStyles?: string
 }
 
 export function TitleText({ title, textStyles }: TitleTextProps) {
