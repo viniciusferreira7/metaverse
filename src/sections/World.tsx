@@ -46,7 +46,7 @@ function World() {
               height={250}
               className="object-cover w-full h-full rounded-lg"
             />
-            <div className="w-full bg-orange-300 opacity-60 text-center absolute bottom-0 p-1">
+            <div className="w-full bg-orange-300 opacity-60 text-center absolute bottom-0 p-1 rounded-bl-lg rounded-br-lg">
               <p className="text-white text-xs font-bold tracking-wide">
                 Andrômeda
               </p>
@@ -79,7 +79,7 @@ function World() {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute bottom-[120px] left-[12%] w-28 h-20 ">
+          <div className="absolute bottom-[120px] left-[12%] w-28 h-20">
             <Image
               src="/planet-09.png"
               alt="planet"
@@ -87,7 +87,7 @@ function World() {
               height={250}
               className="object-cover w-full h-full rounded-lg"
             />
-            <div className="w-full bg-purple-400 opacity-60 text-center absolute bottom-0 p-1">
+            <div className="w-full bg-purple-400 opacity-60 text-center absolute bottom-0 p-1 rounded-bl-lg rounded-br-lg">
               <p className="text-white text-xs font-bold tracking-wide">
                 Outer Edge
               </p>
