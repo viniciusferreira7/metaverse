@@ -5,7 +5,6 @@ import { InsightCard, TypingText, TitleText } from '@/components'
 import { staggerContainer } from '@/utils/motion'
 import { insights } from '../constants'
 import styles from '../styles'
-import Image from 'next/image'
 
 function Insights() {
   return (

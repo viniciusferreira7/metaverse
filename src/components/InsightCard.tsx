@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { fadeIn } from '@/utils/motion'
-import styles from '../styles'
 
 interface InsightCardProps {
   index: number

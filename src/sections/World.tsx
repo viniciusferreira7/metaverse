@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import { TypingText, TitleText } from '@/components'
 import { staggerContainer, fadeIn } from '@/utils/motion'
-import { newFeatures } from '../constants'
 import styles from '../styles'
 import Image from 'next/image'
 
